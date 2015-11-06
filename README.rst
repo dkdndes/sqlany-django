@@ -45,12 +45,12 @@ tested with SQL Anywhere versions 12, 16, and 17 using Django versions 1.1.4,
     
        Once you have installed setuptools, installing Django is a snap, simply run::
     
-           $ easy_install Django
+           $ pip install Django
 
        If you want a specific version of Django, you can give the version using
        the == syntax. For example, if you want 1.6.1, you can use::
     
-           $ easy_install Django==1.6.1
+           $ pip install Django==1.6.1
 
     (e) Python SQL Anywhere Database Interface
     
@@ -106,7 +106,7 @@ tested with SQL Anywhere versions 12, 16, and 17 using Django versions 1.1.4,
     SQL Anywhere binaries you want to use. For example, if you are running 64-bit
     software and the product is installed in /opt/sqlanywhere16 you should run::
     
-        $ . /opt/sqlanywhere16/bin64/sa_config.sh
+        $ source /opt/sqlanywhere16/bin64/sa_config.sh
 
 #. Create a database
 
@@ -149,8 +149,8 @@ tested with SQL Anywhere versions 12, 16, and 17 using Django versions 1.1.4,
 	      'NAME': 'django',
 	      'USER': 'dba',
 	      'PASSWORD': 'sql',
-	      'HOST': 'myhost',
-	      'PORT': 'portnum'
+	      'HOST': 'localhost',
+	      'PORT': '2638'
 	  }
         }
 
