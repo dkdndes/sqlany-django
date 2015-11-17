@@ -1,0 +1,5 @@
+django.db
+django.log
+*.pyc
+env
+nohup.out
