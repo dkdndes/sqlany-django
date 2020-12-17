@@ -1,4 +1,4 @@
-Django==1.8.6
+Django==1.11.29
 sqlany-django==1.12
 sqlanydb==1.0.6.1
 wsgiref==0.1.2
